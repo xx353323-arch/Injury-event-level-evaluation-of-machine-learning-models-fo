@@ -1,0 +1,299 @@
+[
+  {
+    "target": "TeamA-2020",
+    "seed": 42,
+    "window_metrics": {
+      "auc": 0.7742405339654419,
+      "ap": 0.1083284013991979,
+      "f1": 0.22145922746781116,
+      "precision": 0.15636363636363637,
+      "recall": 0.37941176470588234,
+      "thr": 0.5399999999999999
+    },
+    "weekly": {
+      "n_athlete_weeks": 1334,
+      "n_healthy_weeks": 1273,
+      "n_injury_weeks": 61,
+      "weekly_fpr": 0.15710919088766692,
+      "weekly_sensitivity": 0.5573770491803278,
+      "weekly_ppv": 0.1452991452991453,
+      "daily_fpr": 0.1362083186049252,
+      "daily_sensitivity": 0.4441176470588235,
+      "false_alerts_per_25_athletes_per_week": 3.927729772191673,
+      "naive_daily_extrapolation": 3.4052079651231297
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 87,
+      "n_te_pos": 340,
+      "n_sup_neg": 348,
+      "n_te_neg": 8487
+    }
+  },
+  {
+    "target": "TeamA-2020",
+    "seed": 123,
+    "window_metrics": {
+      "auc": 0.8592681238936024,
+      "ap": 0.20118904326342116,
+      "f1": 0.288107202680067,
+      "precision": 0.19457013574660634,
+      "recall": 0.5548387096774193,
+      "thr": 0.5199999999999999
+    },
+    "weekly": {
+      "n_athlete_weeks": 1339,
+      "n_healthy_weeks": 1280,
+      "n_injury_weeks": 59,
+      "weekly_fpr": 0.109375,
+      "weekly_sensitivity": 0.6949152542372882,
+      "weekly_ppv": 0.2265193370165746,
+      "daily_fpr": 0.09043498874007348,
+      "daily_sensitivity": 0.5645161290322581,
+      "false_alerts_per_25_athletes_per_week": 2.734375,
+      "naive_daily_extrapolation": 2.260874718501837
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 117,
+      "n_te_pos": 310,
+      "n_sup_neg": 468,
+      "n_te_neg": 8437
+    }
+  },
+  {
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "window_metrics": {
+      "auc": 0.7946954122927611,
+      "ap": 0.3365464715704265,
+      "f1": 0.3893805309734513,
+      "precision": 0.4583333333333333,
+      "recall": 0.3384615384615385,
+      "thr": 0.6599999999999999
+    },
+    "weekly": {
+      "n_athlete_weeks": 1333,
+      "n_healthy_weeks": 1274,
+      "n_injury_weeks": 59,
+      "weekly_fpr": 0.13971742543171115,
+      "weekly_sensitivity": 0.6440677966101694,
+      "weekly_ppv": 0.17592592592592593,
+      "daily_fpr": 0.11693691561131495,
+      "daily_sensitivity": 0.64,
+      "false_alerts_per_25_athletes_per_week": 3.4929356357927785,
+      "naive_daily_extrapolation": 2.9234228902828736
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 102,
+      "n_te_pos": 325,
+      "n_sup_neg": 408,
+      "n_te_neg": 8449
+    }
+  },
+  {
+    "target": "TeamA-2021",
+    "seed": 42,
+    "window_metrics": {
+      "auc": 0.36097485935302387,
+      "ap": 0.003639119128286074,
+      "f1": 0.010221465076660987,
+      "precision": 0.005136986301369863,
+      "recall": 1.0,
+      "thr": 0.05
+    },
+    "weekly": {
+      "n_athlete_weeks": 1394,
+      "n_healthy_weeks": 1382,
+      "n_injury_weeks": 12,
+      "weekly_fpr": 0.1020260492040521,
+      "weekly_sensitivity": 0.0,
+      "weekly_ppv": 0.0,
+      "daily_fpr": 0.06993670886075949,
+      "daily_sensitivity": 0.0,
+      "false_alerts_per_25_athletes_per_week": 2.5506512301013027,
+      "naive_daily_extrapolation": 1.7484177215189873
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9480
+    }
+  },
+  {
+    "target": "TeamA-2021",
+    "seed": 123,
+    "window_metrics": {
+      "auc": 0.5391788605621763,
+      "ap": 0.00491082702599532,
+      "f1": 0.012598425196850394,
+      "precision": 0.006405124099279423,
+      "recall": 0.38095238095238093,
+      "thr": 0.13
+    },
+    "weekly": {
+      "n_athlete_weeks": 1395,
+      "n_healthy_weeks": 1383,
+      "n_injury_weeks": 12,
+      "weekly_fpr": 0.12581344902386118,
+      "weekly_sensitivity": 0.08333333333333333,
+      "weekly_ppv": 0.005714285714285714,
+      "daily_fpr": 0.09376979936642027,
+      "daily_sensitivity": 0.07142857142857142,
+      "false_alerts_per_25_athletes_per_week": 3.14533622559653,
+      "naive_daily_extrapolation": 2.3442449841605066
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9470
+    }
+  },
+  {
+    "target": "TeamA-2021",
+    "seed": 2026,
+    "window_metrics": {
+      "auc": 0.7372174272293723,
+      "ap": 0.01696363885984268,
+      "f1": 0.052060737527114966,
+      "precision": 0.028985507246376812,
+      "recall": 0.2553191489361702,
+      "thr": 0.58
+    },
+    "weekly": {
+      "n_athlete_weeks": 1394,
+      "n_healthy_weeks": 1382,
+      "n_injury_weeks": 12,
+      "weekly_fpr": 0.06512301013024602,
+      "weekly_sensitivity": 0.25,
+      "weekly_ppv": 0.03225806451612903,
+      "daily_fpr": 0.05149852258336851,
+      "daily_sensitivity": 0.2765957446808511,
+      "false_alerts_per_25_athletes_per_week": 1.6280752532561504,
+      "naive_daily_extrapolation": 1.287463064584213
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 15,
+      "n_te_pos": 47,
+      "n_sup_neg": 60,
+      "n_te_neg": 9476
+    }
+  },
+  {
+    "target": "TeamB-2020",
+    "seed": 42,
+    "window_metrics": {
+      "auc": 0.7188527182298206,
+      "ap": 0.005605650227426211,
+      "f1": 0.01199400299850075,
+      "precision": 0.0060759493670886075,
+      "recall": 0.46153846153846156,
+      "thr": 0.07
+    },
+    "weekly": {
+      "n_athlete_weeks": 1169,
+      "n_healthy_weeks": 1163,
+      "n_injury_weeks": 6,
+      "weekly_fpr": 0.004299226139294927,
+      "weekly_sensitivity": 0.0,
+      "weekly_ppv": 0.0,
+      "daily_fpr": 0.0009966363523109506,
+      "daily_sensitivity": 0.0,
+      "false_alerts_per_25_athletes_per_week": 0.10748065348237318,
+      "naive_daily_extrapolation": 0.024915908807773765
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8027
+    }
+  },
+  {
+    "target": "TeamB-2020",
+    "seed": 123,
+    "window_metrics": {
+      "auc": 0.9227402280130294,
+      "ap": 0.013528078278626465,
+      "f1": 0.039735099337748346,
+      "precision": 0.02097902097902098,
+      "recall": 0.375,
+      "thr": 0.13999999999999999
+    },
+    "weekly": {
+      "n_athlete_weeks": 1167,
+      "n_healthy_weeks": 1163,
+      "n_injury_weeks": 4,
+      "weekly_fpr": 0.008598452278589854,
+      "weekly_sensitivity": 0.0,
+      "weekly_ppv": 0.0,
+      "daily_fpr": 0.004885993485342019,
+      "daily_sensitivity": 0.0,
+      "false_alerts_per_25_athletes_per_week": 0.21496130696474636,
+      "naive_daily_extrapolation": 0.12214983713355047
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 7982
+    }
+  },
+  {
+    "target": "TeamB-2020",
+    "seed": 2026,
+    "window_metrics": {
+      "auc": 0.9755189711297294,
+      "ap": 0.0642535603050445,
+      "f1": 0.1322314049586777,
+      "precision": 0.07476635514018691,
+      "recall": 0.5714285714285714,
+      "thr": 0.14999999999999997
+    },
+    "weekly": {
+      "n_athlete_weeks": 1169,
+      "n_healthy_weeks": 1163,
+      "n_injury_weeks": 6,
+      "weekly_fpr": 0.005159071367153913,
+      "weekly_sensitivity": 0.16666666666666666,
+      "weekly_ppv": 0.14285714285714285,
+      "daily_fpr": 0.0029884198729921555,
+      "daily_sensitivity": 0.0,
+      "false_alerts_per_25_athletes_per_week": 0.1289767841788478,
+      "naive_daily_extrapolation": 0.0747104968248039
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 7,
+      "n_te_pos": 28,
+      "n_sup_neg": 28,
+      "n_te_neg": 8031
+    }
+  }
+]

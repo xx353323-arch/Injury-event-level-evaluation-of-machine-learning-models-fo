@@ -1,0 +1,374 @@
+[
+  {
+    "method": "XGBoost",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "auc": 0.6891264494486378,
+    "ap": 0.0765481335208216,
+    "f1": 0.14725069897483692,
+    "precision": 0.1077762619372442,
+    "recall": 0.2323529411764706
+  },
+  {
+    "method": "LSTM",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "auc": 0.7034502595665343,
+    "ap": 0.07316467716046353,
+    "f1": 0.15950069348127602,
+    "precision": 0.10435571687840291,
+    "recall": 0.3382352941176471
+  },
+  {
+    "method": "GAT",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "auc": 0.7027283942916156,
+    "ap": 0.08235218425254245,
+    "f1": 0.12846517917511832,
+    "precision": 0.07257448433919023,
+    "recall": 0.5588235294117647
+  },
+  {
+    "method": "Transformer",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "auc": 0.7528399836428031,
+    "ap": 0.0841955363261301,
+    "f1": 0.18048062775870524,
+    "precision": 0.10829899941141848,
+    "recall": 0.5411764705882353
+  },
+  {
+    "method": "ProtoNet",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "auc": 0.7643063093035023,
+    "ap": 0.11106538313033792,
+    "f1": 0.19975031210986266,
+    "precision": 0.1735357917570499,
+    "recall": 0.23529411764705882
+  },
+  {
+    "method": "DANN",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "error",
+    "error": "train_dann() got an unexpected keyword argument 'seed'"
+  },
+  {
+    "method": "XGBoost",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "auc": 0.8443700367429181,
+    "ap": 0.17914191491825057,
+    "f1": 0.3194103194103194,
+    "precision": 0.25793650793650796,
+    "recall": 0.41935483870967744
+  },
+  {
+    "method": "LSTM",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "auc": 0.8113448060960362,
+    "ap": 0.2314587157330194,
+    "f1": 0.29571984435797666,
+    "precision": 0.37254901960784315,
+    "recall": 0.24516129032258063
+  },
+  {
+    "method": "GAT",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "auc": 0.7158598645750095,
+    "ap": 0.1124436026908919,
+    "f1": 0.1644640234948605,
+    "precision": 0.1509433962264151,
+    "recall": 0.18064516129032257
+  },
+  {
+    "method": "Transformer",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "auc": 0.7279517639277071,
+    "ap": 0.13611295513626342,
+    "f1": 0.24162679425837322,
+    "precision": 0.1920152091254753,
+    "recall": 0.3258064516129032
+  },
+  {
+    "method": "ProtoNet",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "auc": 0.8534573135994677,
+    "ap": 0.20386004332332153,
+    "f1": 0.2839756592292089,
+    "precision": 0.20710059171597633,
+    "recall": 0.45161290322580644
+  },
+  {
+    "method": "DANN",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "error",
+    "error": "train_dann() got an unexpected keyword argument 'seed'"
+  },
+  {
+    "method": "XGBoost",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "auc": 0.8001553210666716,
+    "ap": 0.11712898411687137,
+    "f1": 0.2529209621993127,
+    "precision": 0.16283185840707964,
+    "recall": 0.5661538461538461
+  },
+  {
+    "method": "LSTM",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "auc": 0.8074062474393874,
+    "ap": 0.1761262225288411,
+    "f1": 0.23036649214659685,
+    "precision": 0.15217391304347827,
+    "recall": 0.47384615384615386
+  },
+  {
+    "method": "GAT",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "auc": 0.7833658967378935,
+    "ap": 0.13590450346648142,
+    "f1": 0.2326764144945963,
+    "precision": 0.1466346153846154,
+    "recall": 0.563076923076923
+  },
+  {
+    "method": "Transformer",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "auc": 0.7844505949725502,
+    "ap": 0.1013260640207513,
+    "f1": 0.21969322117763485,
+    "precision": 0.13089622641509435,
+    "recall": 0.683076923076923
+  },
+  {
+    "method": "ProtoNet",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "auc": 0.803358431129765,
+    "ap": 0.1892225382965976,
+    "f1": 0.2526817640047676,
+    "precision": 0.20622568093385213,
+    "recall": 0.3261538461538461
+  },
+  {
+    "method": "DANN",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "error",
+    "error": "train_dann() got an unexpected keyword argument 'seed'"
+  },
+  {
+    "method": "XGBoost",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "status": "ok",
+    "auc": 0.8065731726542728,
+    "ap": 0.19142019449790051,
+    "f1": 0.35036496350364965,
+    "precision": 0.375,
+    "recall": 0.3287671232876712
+  },
+  {
+    "method": "LSTM",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "status": "ok",
+    "auc": 0.7700112841498096,
+    "ap": 0.1447200767033668,
+    "f1": 0.2163355408388521,
+    "precision": 0.2094017094017094,
+    "recall": 0.2237442922374429
+  },
+  {
+    "method": "GAT",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "status": "ok",
+    "auc": 0.6633526186629779,
+    "ap": 0.07518444134706356,
+    "f1": 0.18294190358467244,
+    "precision": 0.12542372881355932,
+    "recall": 0.3378995433789954
+  },
+  {
+    "method": "Transformer",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "status": "ok",
+    "auc": 0.7714815574499968,
+    "ap": 0.10700233239793056,
+    "f1": 0.21206225680933852,
+    "precision": 0.13473423980222496,
+    "recall": 0.4977168949771689
+  },
+  {
+    "method": "ProtoNet",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "status": "ok",
+    "auc": 0.7703025700399889,
+    "ap": 0.1011559063270145,
+    "f1": 0.16926869350862778,
+    "precision": 0.10320641282565131,
+    "recall": 0.4703196347031963
+  },
+  {
+    "method": "DANN",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "status": "error",
+    "error": "train_dann() got an unexpected keyword argument 'seed'"
+  },
+  {
+    "method": "XGBoost",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "status": "ok",
+    "auc": 0.8206920639004119,
+    "ap": 0.13821575918247195,
+    "f1": 0.26806083650190116,
+    "precision": 0.19529085872576177,
+    "recall": 0.42727272727272725
+  },
+  {
+    "method": "LSTM",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "status": "ok",
+    "auc": 0.8215049325944268,
+    "ap": 0.14526886175836995,
+    "f1": 0.25265188042430087,
+    "precision": 0.18528995756718528,
+    "recall": 0.396969696969697
+  },
+  {
+    "method": "GAT",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "status": "ok",
+    "auc": 0.7659056071861166,
+    "ap": 0.09223209152136559,
+    "f1": 0.179,
+    "precision": 0.10718562874251497,
+    "recall": 0.5424242424242425
+  },
+  {
+    "method": "Transformer",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "status": "ok",
+    "auc": 0.8503844600943999,
+    "ap": 0.19711463322897746,
+    "f1": 0.2791411042944785,
+    "precision": 0.2826086956521739,
+    "recall": 0.27575757575757576
+  },
+  {
+    "method": "ProtoNet",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "status": "ok",
+    "auc": 0.8466066751705237,
+    "ap": 0.25132531748262055,
+    "f1": 0.3879849812265332,
+    "precision": 0.3304904051172708,
+    "recall": 0.4696969696969697
+  },
+  {
+    "method": "DANN",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "status": "error",
+    "error": "train_dann() got an unexpected keyword argument 'seed'"
+  },
+  {
+    "method": "XGBoost",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "status": "ok",
+    "auc": 0.8304428075108518,
+    "ap": 0.10550267736713526,
+    "f1": 0.20527045769764216,
+    "precision": 0.14453125,
+    "recall": 0.35406698564593303
+  },
+  {
+    "method": "LSTM",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "status": "ok",
+    "auc": 0.7804619629756495,
+    "ap": 0.1704803928783595,
+    "f1": 0.2,
+    "precision": 0.5098039215686274,
+    "recall": 0.12440191387559808
+  },
+  {
+    "method": "GAT",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "status": "ok",
+    "auc": 0.7431601265573512,
+    "ap": 0.1425147270054477,
+    "f1": 0.18461538461538463,
+    "precision": 0.14361702127659576,
+    "recall": 0.2583732057416268
+  },
+  {
+    "method": "Transformer",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "status": "ok",
+    "auc": 0.8333244816388008,
+    "ap": 0.1988815421015698,
+    "f1": 0.27699530516431925,
+    "precision": 0.18351477449455678,
+    "recall": 0.5645933014354066
+  },
+  {
+    "method": "ProtoNet",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "status": "ok",
+    "auc": 0.8283786719116438,
+    "ap": 0.13840794244279192,
+    "f1": 0.28852459016393445,
+    "precision": 0.2194513715710723,
+    "recall": 0.42105263157894735
+  },
+  {
+    "method": "DANN",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "status": "error",
+    "error": "train_dann() got an unexpected keyword argument 'seed'"
+  }
+]

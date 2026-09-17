@@ -1,0 +1,308 @@
+[
+  {
+    "target": "G1",
+    "seed": 42,
+    "ours": {
+      "auc": 0.6548240097255547,
+      "ap": 0.021025177492779462,
+      "f1": 0.04484304932735426,
+      "precision": 0.02390710382513661,
+      "recall": 0.36082474226804123,
+      "thr": 0.5299999999999999
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5447034392122246,
+        "ap": 0.016873900396628498,
+        "f1": 0.040955631399317405,
+        "precision": 0.026277372262773723,
+        "recall": 0.09278350515463918
+      },
+      "LSTM": {
+        "auc": 0.6471537190801495,
+        "ap": 0.019582077375904124,
+        "f1": 0.041353383458646614,
+        "precision": 0.022750775594622543,
+        "recall": 0.2268041237113402
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G1",
+    "seed": 123,
+    "ours": {
+      "auc": 0.5945564210610721,
+      "ap": 0.016380740035928078,
+      "f1": 0.032505436648735266,
+      "precision": 0.016621795622146787,
+      "recall": 0.7319587628865979,
+      "thr": 0.33999999999999997
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.49769687419092457,
+        "ap": 0.014459336319242011,
+        "f1": 0.02903225806451613,
+        "precision": 0.02112676056338028,
+        "recall": 0.04639175257731959
+      },
+      "LSTM": {
+        "auc": 0.6548426970338825,
+        "ap": 0.019837740342626482,
+        "f1": 0.0423728813559322,
+        "precision": 0.023316062176165803,
+        "recall": 0.23195876288659795
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G1",
+    "seed": 2026,
+    "ours": {
+      "auc": 0.6413409468825153,
+      "ap": 0.026019579800003814,
+      "f1": 0.053402239448751075,
+      "precision": 0.03205791106514995,
+      "recall": 0.15979381443298968,
+      "thr": 0.58
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5162902363230988,
+        "ap": 0.014823354227255232,
+        "f1": 0.042821158690176324,
+        "precision": 0.028333333333333332,
+        "recall": 0.08762886597938144
+      },
+      "LSTM": {
+        "auc": 0.6667067594372605,
+        "ap": 0.022270898770457022,
+        "f1": 0.05504587155963303,
+        "precision": 0.033482142857142856,
+        "recall": 0.15463917525773196
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G2",
+    "seed": 42,
+    "ours": {
+      "auc": 0.5923311503890487,
+      "ap": 0.019195241955555845,
+      "f1": 0.039473684210526314,
+      "precision": 0.05042016806722689,
+      "recall": 0.032432432432432434,
+      "thr": 0.6499999999999999
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5742373556597401,
+        "ap": 0.01834957383130919,
+        "f1": 0.04159343878148799,
+        "precision": 0.02198823165066584,
+        "recall": 0.3837837837837838
+      },
+      "LSTM": {
+        "auc": 0.6117164349213586,
+        "ap": 0.017258852761693012,
+        "f1": 0.038616251005631534,
+        "precision": 0.020054313766450803,
+        "recall": 0.518918918918919
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G2",
+    "seed": 123,
+    "ours": {
+      "auc": 0.5581182732766958,
+      "ap": 0.015167454018632105,
+      "f1": 0.03306690025183401,
+      "precision": 0.016875279392042915,
+      "recall": 0.8162162162162162,
+      "thr": 0.37999999999999995
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5586743798733769,
+        "ap": 0.016651721913483894,
+        "f1": 0.035403926617315735,
+        "precision": 0.018822724161533196,
+        "recall": 0.2972972972972973
+      },
+      "LSTM": {
+        "auc": 0.6145805481798188,
+        "ap": 0.018835562832816143,
+        "f1": 0.04224537037037037,
+        "precision": 0.022317334148578418,
+        "recall": 0.3945945945945946
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G2",
+    "seed": 2026,
+    "ours": {
+      "auc": 0.5405916744188912,
+      "ap": 0.01944293076224389,
+      "f1": 0.05806451612903226,
+      "precision": 0.072,
+      "recall": 0.04864864864864865,
+      "thr": 0.6399999999999999
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.6027630776434059,
+        "ap": 0.018842691319367666,
+        "f1": 0.03907946157186279,
+        "precision": 0.020357385206966748,
+        "recall": 0.4864864864864865
+      },
+      "LSTM": {
+        "auc": 0.6228968882262704,
+        "ap": 0.01797680275683753,
+        "f1": 0.04014288144242218,
+        "precision": 0.02072356866877415,
+        "recall": 0.6378378378378379
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G3",
+    "seed": 42,
+    "ours": {
+      "auc": 0.5570066725431254,
+      "ap": 0.015058930736918823,
+      "f1": 0.0315059861373661,
+      "precision": 0.016666666666666666,
+      "recall": 0.28735632183908044,
+      "thr": 0.4799999999999999
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5369685341583814,
+        "ap": 0.023600261282949894,
+        "f1": 0.036275695284159616,
+        "precision": 0.022970903522205207,
+        "recall": 0.08620689655172414
+      },
+      "LSTM": {
+        "auc": 0.6448526155682628,
+        "ap": 0.021814120249801765,
+        "f1": 0.05341246290801187,
+        "precision": 0.03225806451612903,
+        "recall": 0.15517241379310345
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G3",
+    "seed": 123,
+    "ours": {
+      "auc": 0.6104845399745689,
+      "ap": 0.018448912327100747,
+      "f1": 0.03651685393258427,
+      "precision": 0.019877675840978593,
+      "recall": 0.22413793103448276,
+      "thr": 0.57
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5365152432159129,
+        "ap": 0.017126405279333595,
+        "f1": 0.030203545633617858,
+        "precision": 0.01704966641957005,
+        "recall": 0.13218390804597702
+      },
+      "LSTM": {
+        "auc": 0.6295217131802607,
+        "ap": 0.020253793456623845,
+        "f1": 0.04327076041998091,
+        "precision": 0.022903334456045806,
+        "recall": 0.39080459770114945
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  },
+  {
+    "target": "G3",
+    "seed": 2026,
+    "ours": {
+      "auc": 0.6094710182597144,
+      "ap": 0.018440291686909995,
+      "f1": 0.04424103737604882,
+      "precision": 0.025505716798592787,
+      "recall": 0.16666666666666666,
+      "thr": 0.57
+    },
+    "baselines": {
+      "XGBoost": {
+        "auc": 0.5592706159483072,
+        "ap": 0.017442002322801232,
+        "f1": 0.04081632653061224,
+        "precision": 0.026737967914438502,
+        "recall": 0.08620689655172414
+      },
+      "LSTM": {
+        "auc": 0.6309058619768843,
+        "ap": 0.020060421558556037,
+        "f1": 0.042819843342036555,
+        "precision": 0.023549684089603676,
+        "recall": 0.23563218390804597
+      },
+      "Transformer": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      },
+      "ProtoNet": {
+        "error": "The size of tensor a (7) must match the size of tensor b (14) at non-singleton dimension 1"
+      }
+    }
+  }
+]

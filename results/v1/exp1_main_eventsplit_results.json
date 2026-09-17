@@ -1,0 +1,662 @@
+[
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "paml": {
+      "auc": 0.7698719148316803,
+      "ap": 0.10692160215789123,
+      "f1": 0.21671258034894397,
+      "precision": 0.157543391188251,
+      "recall": 0.34705882352941175,
+      "thr": 0.5599999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 87,
+      "n_te_pos": 340,
+      "n_sup_neg": 348,
+      "n_te_neg": 8487
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "paml": {
+      "auc": 0.8636921853433609,
+      "ap": 0.21014291220920617,
+      "f1": 0.30057803468208094,
+      "precision": 0.21428571428571427,
+      "recall": 0.5032258064516129,
+      "thr": 0.5499999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 117,
+      "n_te_pos": 310,
+      "n_sup_neg": 468,
+      "n_te_neg": 8437
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "paml": {
+      "auc": 0.8003415970938753,
+      "ap": 0.3393917944011814,
+      "f1": 0.3981042654028436,
+      "precision": 0.4090909090909091,
+      "recall": 0.38769230769230767,
+      "thr": 0.62
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 102,
+      "n_te_pos": 325,
+      "n_sup_neg": 408,
+      "n_te_neg": 8449
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 0,
+    "paml": {
+      "auc": 0.7686348099917558,
+      "ap": 0.13099973480864163,
+      "f1": 0.2647058823529412,
+      "precision": 0.19522776572668113,
+      "recall": 0.410958904109589,
+      "thr": 0.69
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 208,
+      "n_te_pos": 219,
+      "n_sup_neg": 832,
+      "n_te_neg": 8081
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 1,
+    "paml": {
+      "auc": 0.8910373633755311,
+      "ap": 0.31947059620624735,
+      "f1": 0.3982102908277405,
+      "precision": 0.31560283687943264,
+      "recall": 0.5393939393939394,
+      "thr": 0.6499999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 97,
+      "n_te_pos": 330,
+      "n_sup_neg": 388,
+      "n_te_neg": 8481
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 2,
+    "paml": {
+      "auc": 0.7739756600280947,
+      "ap": 0.12990076164539238,
+      "f1": 0.2920892494929006,
+      "precision": 0.2535211267605634,
+      "recall": 0.3444976076555024,
+      "thr": 0.7
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 218,
+      "n_te_pos": 209,
+      "n_sup_neg": 872,
+      "n_te_neg": 8018
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 3,
+    "paml": {
+      "auc": 0.7790621487400625,
+      "ap": 0.10299793100129534,
+      "f1": 0.1986754966887417,
+      "precision": 0.19292604501607716,
+      "recall": 0.20477815699658702,
+      "thr": 0.6599999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 134,
+      "n_te_pos": 293,
+      "n_sup_neg": 536,
+      "n_te_neg": 8350
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 4,
+    "paml": {
+      "auc": 0.8093455463031534,
+      "ap": 0.1369094154200975,
+      "f1": 0.23774345198119542,
+      "precision": 0.15063829787234043,
+      "recall": 0.5636942675159236,
+      "thr": 0.5299999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 113,
+      "n_te_pos": 314,
+      "n_sup_neg": 452,
+      "n_te_neg": 8446
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 5,
+    "paml": {
+      "auc": 0.7870586130456789,
+      "ap": 0.16207977613606073,
+      "f1": 0.26791277258566976,
+      "precision": 0.20673076923076922,
+      "recall": 0.3805309734513274,
+      "thr": 0.6399999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 201,
+      "n_te_pos": 226,
+      "n_sup_neg": 804,
+      "n_te_neg": 8112
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2020",
+    "seed": 6,
+    "paml": {
+      "auc": 0.8684697742324539,
+      "ap": 0.29939704474000617,
+      "f1": 0.4057217165149545,
+      "precision": 0.3586206896551724,
+      "recall": 0.46706586826347307,
+      "thr": 0.6
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 93,
+      "n_te_pos": 334,
+      "n_sup_neg": 372,
+      "n_te_neg": 8490
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 42,
+    "paml": {
+      "auc": 0.35800588959212376,
+      "ap": 0.0036172057589405615,
+      "f1": 0.010534401404586854,
+      "precision": 0.005295091009376723,
+      "recall": 1.0,
+      "thr": 0.05
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9480
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 123,
+    "paml": {
+      "auc": 0.5328254638708705,
+      "ap": 0.0047666067322773,
+      "f1": 0.01222707423580786,
+      "precision": 0.006346328195829556,
+      "recall": 0.16666666666666666,
+      "thr": 0.38999999999999996
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9470
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 2026,
+    "paml": {
+      "auc": 0.7299897613680248,
+      "ap": 0.016551281629995303,
+      "f1": 0.05671077504725898,
+      "precision": 0.03112033195020747,
+      "recall": 0.3191489361702128,
+      "thr": 0.41999999999999993
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 15,
+      "n_te_pos": 47,
+      "n_sup_neg": 60,
+      "n_te_neg": 9476
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 0,
+    "paml": {
+      "auc": 0.6829872099156118,
+      "ap": 0.04302917684128809,
+      "f1": 0.15873015873015872,
+      "precision": 0.1282051282051282,
+      "recall": 0.20833333333333334,
+      "thr": 0.71
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9480
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 1,
+    "paml": {
+      "auc": 0.6854449763343902,
+      "ap": 0.02191042316139356,
+      "f1": 0.08629441624365482,
+      "precision": 0.04899135446685879,
+      "recall": 0.3617021276595745,
+      "thr": 0.7499999999999999
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 15,
+      "n_te_pos": 47,
+      "n_sup_neg": 60,
+      "n_te_neg": 9476
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 2,
+    "paml": {
+      "auc": 0.7775443333128796,
+      "ap": 0.023698028053187534,
+      "f1": 0.06779661016949153,
+      "precision": 0.04477611940298507,
+      "recall": 0.13953488372093023,
+      "thr": 0.62
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 19,
+      "n_te_pos": 43,
+      "n_sup_neg": 76,
+      "n_te_neg": 9475
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 3,
+    "paml": {
+      "auc": 0.7067435007562667,
+      "ap": 0.02464146629696342,
+      "f1": 0.12987012987012986,
+      "precision": 0.14705882352941177,
+      "recall": 0.11627906976744186,
+      "thr": 0.61
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 19,
+      "n_te_pos": 43,
+      "n_sup_neg": 76,
+      "n_te_neg": 9502
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 4,
+    "paml": {
+      "auc": 0.6837029321801498,
+      "ap": 0.01070889150448372,
+      "f1": 0.03805496828752643,
+      "precision": 0.0200445434298441,
+      "recall": 0.375,
+      "thr": 0.37999999999999995
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9481
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 5,
+    "paml": {
+      "auc": 0.6799300355096158,
+      "ap": 0.008272408454006248,
+      "f1": 0.02208835341365462,
+      "precision": 0.01131687242798354,
+      "recall": 0.4583333333333333,
+      "thr": 0.20999999999999996
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9481
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamA-2021",
+    "seed": 6,
+    "paml": {
+      "auc": 0.5717487606792533,
+      "ap": 0.03622657243500423,
+      "f1": 0.19801980198019803,
+      "precision": 0.18867924528301888,
+      "recall": 0.20833333333333334,
+      "thr": 0.5199999999999999
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9481
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 42,
+    "paml": {
+      "auc": 0.7018715680731378,
+      "ap": 0.005228821117660301,
+      "f1": 0.010084033613445379,
+      "precision": 0.00511654349061967,
+      "recall": 0.34615384615384615,
+      "thr": 0.07
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8027
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 123,
+    "paml": {
+      "auc": 0.9257156727637184,
+      "ap": 0.014511025901166034,
+      "f1": 0.0425531914893617,
+      "precision": 0.022556390977443608,
+      "recall": 0.375,
+      "thr": 0.14999999999999997
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 7982
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 2026,
+    "paml": {
+      "auc": 0.9618531760855257,
+      "ap": 0.05307211663946471,
+      "f1": 0.11808118081180811,
+      "precision": 0.06584362139917696,
+      "recall": 0.5714285714285714,
+      "thr": 0.13
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 7,
+      "n_te_pos": 28,
+      "n_sup_neg": 28,
+      "n_te_neg": 8031
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 0,
+    "paml": {
+      "auc": 0.8735709288842465,
+      "ap": 0.013328840706329252,
+      "f1": 0.03625377643504532,
+      "precision": 0.019672131147540985,
+      "recall": 0.23076923076923078,
+      "thr": 0.18
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8027
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 1,
+    "paml": {
+      "auc": 0.9010194813329993,
+      "ap": 0.012159813252620904,
+      "f1": 0.04081632653061224,
+      "precision": 0.021406727828746176,
+      "recall": 0.4375,
+      "thr": 0.14999999999999997
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 7982
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 2,
+    "paml": {
+      "auc": 0.830677233567479,
+      "ap": 0.008934110360108069,
+      "f1": 0.02140468227424749,
+      "precision": 0.010891763104152484,
+      "recall": 0.6153846153846154,
+      "thr": 0.13999999999999999
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8027
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 3,
+    "paml": {
+      "auc": 0.9160381788387271,
+      "ap": 0.020444137555628544,
+      "f1": 0.047244094488188976,
+      "precision": 0.02631578947368421,
+      "recall": 0.23076923076923078,
+      "thr": 0.22999999999999998
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8027
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 4,
+    "paml": {
+      "auc": 0.9711303558005513,
+      "ap": 0.03291352469308162,
+      "f1": 0.07650273224043716,
+      "precision": 0.04,
+      "recall": 0.875,
+      "thr": 0.13999999999999999
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 7982
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 5,
+    "paml": {
+      "auc": 0.9779087351005159,
+      "ap": 0.07394550675729032,
+      "f1": 0.17307692307692307,
+      "precision": 0.1,
+      "recall": 0.6428571428571429,
+      "thr": 0.5599999999999999
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 7,
+      "n_te_pos": 28,
+      "n_sup_neg": 28,
+      "n_te_neg": 8030
+    }
+  },
+  {
+    "status": "ok",
+    "target": "TeamB-2020",
+    "seed": 6,
+    "paml": {
+      "auc": 0.9611234652969181,
+      "ap": 0.025887857059064337,
+      "f1": 0.06060606060606061,
+      "precision": 0.03255813953488372,
+      "recall": 0.4375,
+      "thr": 0.18
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 7982
+    }
+  }
+]

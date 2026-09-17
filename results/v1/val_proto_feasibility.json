@@ -1,0 +1,78 @@
+[
+  {
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.6298130705092218,
+      "ap": 0.07143754855160891,
+      "f1": 0.10909090909090909
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 87,
+      "n_te_pos": 340,
+      "n_sup_neg": 348,
+      "n_te_neg": 8487
+    }
+  },
+  {
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.6010017320022788,
+      "ap": 0.05967329878173038,
+      "f1": 0.08917513004706465
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 117,
+      "n_te_pos": 310,
+      "n_sup_neg": 468,
+      "n_te_neg": 8437
+    }
+  },
+  {
+    "target": "TeamA-2021",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.45580168776371305,
+      "ap": 0.004413929860377115,
+      "f1": 0.011676396997497914
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9480
+    }
+  },
+  {
+    "target": "TeamA-2021",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.4168124905717302,
+      "ap": 0.0034993559798324574,
+      "f1": 0.009506833036244802
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9470
+    }
+  }
+]

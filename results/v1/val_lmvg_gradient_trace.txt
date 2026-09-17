@@ -1,0 +1,21 @@
+E9  LMVG 梯度追踪：硬阈值 0.5 是否阻断到 view_logits / tau 的梯度
+========================================================================
+
+[gumbel hard=False]
+  forward 用的邻接 fused: requires_grad=True, 取值范围 [0.000, 1.000] (连续)
+  统计用 hard_adj=(fused>0.5).detach(): requires_grad=False, 唯一值=[0.0, 1.0], 稀疏度=0.289
+  loss=0.0914
+  grad view_logits = [-3.1e-05, -9e-06, 4e-05]  ||g||=5.127e-05
+  grad tau (10通道) ||g||=4.042e-05, 非零通道数=10/10
+  encoder 参数总梯度范数=2.413e-01
+
+[gumbel hard=True]
+  forward 用的邻接 fused: requires_grad=True, 取值范围 [0.000, 1.000] (连续)
+  统计用 hard_adj=(fused>0.5).detach(): requires_grad=False, 唯一值=[0.0, 1.0], 稀疏度=0.337
+  loss=0.0794
+  grad view_logits = [1.3e-05, -2.8e-05, 1.5e-05]  ||g||=3.409e-05
+  grad tau (10通道) ||g||=5.347e-05, 非零通道数=10/10
+  encoder 参数总梯度范数=1.755e-01
+
+结论：forward 路径使用连续 fused 邻接（graph_backend_v2.py:57-79），硬阈值 hard_adj 被 detach 仅用于稀疏度统计（lmvg_v2.py:88），
+      view_logits 与 tau 在 soft 与 hard-Gumbel 两种模式下均收到非零梯度，R1-7 所担心的梯度阻断不存在。

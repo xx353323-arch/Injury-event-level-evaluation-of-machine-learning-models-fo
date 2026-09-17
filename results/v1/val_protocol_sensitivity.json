@@ -1,0 +1,812 @@
+[
+  {
+    "protocol": "chrono_window",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.808572567783094,
+      "ap": 0.10512382136850898,
+      "f1": 0.20382165605095542,
+      "precision": 0.1461187214611872,
+      "recall": 0.3368421052631579,
+      "thr": 0.83
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 142,
+      "n_te_pos": 285,
+      "n_sup_neg": 568,
+      "n_te_neg": 8536
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.7486922261135501,
+      "ap": 0.07013309615508098,
+      "f1": 0.1499460625674218,
+      "precision": 0.08859145952836202,
+      "recall": 0.48771929824561405,
+      "thr": 0.8599999999999999
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 142,
+      "n_te_pos": 285,
+      "n_sup_neg": 568,
+      "n_te_neg": 8536
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.7820851625314458,
+      "ap": 0.10986366633816184,
+      "f1": 0.22807017543859648,
+      "precision": 0.1475748194014448,
+      "recall": 0.5017543859649123,
+      "thr": 0.8899999999999999
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 142,
+      "n_te_pos": 285,
+      "n_sup_neg": 568,
+      "n_te_neg": 8536
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamA-2021",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.6949236015279694,
+      "ap": 0.01066621467043513,
+      "f1": 0.030418250950570342,
+      "precision": 0.01809954751131222,
+      "recall": 0.09523809523809523,
+      "thr": 0.71
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9524
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamA-2021",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.612705245895082,
+      "ap": 0.020440402603215176,
+      "f1": 0.05420054200542006,
+      "precision": 0.03058103975535168,
+      "recall": 0.23809523809523808,
+      "thr": 0.74
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9524
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamA-2021",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.6922936541269175,
+      "ap": 0.00907759262478931,
+      "f1": 0.02608695652173913,
+      "precision": 0.013392857142857142,
+      "recall": 0.5,
+      "thr": 0.4699999999999999
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9524
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamB-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.9195325456053068,
+      "ap": 0.09962925505927023,
+      "f1": 0.14285714285714285,
+      "precision": 0.5,
+      "recall": 0.08333333333333333,
+      "thr": 0.82
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 11,
+      "n_te_pos": 24,
+      "n_sup_neg": 44,
+      "n_te_neg": 8040
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamB-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.9385002072968491,
+      "ap": 0.10476693019727348,
+      "f1": 0.15384615384615385,
+      "precision": 1.0,
+      "recall": 0.08333333333333333,
+      "thr": 0.8099999999999999
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 11,
+      "n_te_pos": 24,
+      "n_sup_neg": 44,
+      "n_te_neg": 8040
+    }
+  },
+  {
+    "protocol": "chrono_window",
+    "target": "TeamB-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.9399927446102819,
+      "ap": 0.10505813050392754,
+      "f1": 0.14814814814814814,
+      "precision": 0.6666666666666666,
+      "recall": 0.08333333333333333,
+      "thr": 0.9099999999999999
+    },
+    "split": {
+      "protocol": "chronological_window",
+      "n_sup_pos": 11,
+      "n_te_pos": 24,
+      "n_sup_neg": 44,
+      "n_te_neg": 8040
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.7585982420863623,
+      "ap": 0.09384016233228865,
+      "f1": 0.2111111111111111,
+      "precision": 0.13359375,
+      "recall": 0.5029411764705882,
+      "thr": 0.5099999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 87,
+      "n_te_pos": 340,
+      "n_sup_neg": 348,
+      "n_te_neg": 8747
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.8450962282705834,
+      "ap": 0.1714302171995368,
+      "f1": 0.24213075060532688,
+      "precision": 0.1937984496124031,
+      "recall": 0.3225806451612903,
+      "thr": 0.5599999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 117,
+      "n_te_pos": 310,
+      "n_sup_neg": 468,
+      "n_te_neg": 8627
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.775473873427137,
+      "ap": 0.29868482691721426,
+      "f1": 0.33700787401574805,
+      "precision": 0.34516129032258064,
+      "recall": 0.3292307692307692,
+      "thr": 0.6399999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 102,
+      "n_te_pos": 325,
+      "n_sup_neg": 408,
+      "n_te_neg": 8687
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamA-2021",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.36071172917103145,
+      "ap": 0.003639341260390231,
+      "f1": 0.008126410835214447,
+      "precision": 0.004092769440654843,
+      "recall": 0.5625,
+      "thr": 0.05
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9546
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamA-2021",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.5354404836919014,
+      "ap": 0.004729754065674101,
+      "f1": 0.011513157894736841,
+      "precision": 0.00596252129471891,
+      "recall": 0.16666666666666666,
+      "thr": 0.30999999999999994
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9522
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamA-2021",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.6814932415257073,
+      "ap": 0.011853412179915163,
+      "f1": 0.0391644908616188,
+      "precision": 0.02086230876216968,
+      "recall": 0.3191489361702128,
+      "thr": 0.42999999999999994
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 15,
+      "n_te_pos": 47,
+      "n_sup_neg": 60,
+      "n_te_neg": 9542
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamB-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.7395207004999473,
+      "ap": 0.006023512262532189,
+      "f1": 0.011776251226692836,
+      "precision": 0.006042296072507553,
+      "recall": 0.23076923076923078,
+      "thr": 0.09
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8047
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamB-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.8237869988759835,
+      "ap": 0.005966405987100929,
+      "f1": 0.015469613259668509,
+      "precision": 0.007874015748031496,
+      "recall": 0.4375,
+      "thr": 0.12
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 8007
+    }
+  },
+  {
+    "protocol": "event_emb0",
+    "target": "TeamB-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.9435754189944134,
+      "ap": 0.03722752302142339,
+      "f1": 0.10674157303370786,
+      "precision": 0.057926829268292686,
+      "recall": 0.6785714285714286,
+      "thr": 0.15999999999999998
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 7,
+      "n_te_pos": 28,
+      "n_sup_neg": 28,
+      "n_te_neg": 8055
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.7532130499258527,
+      "ap": 0.08864392348425035,
+      "f1": 0.1891213389121339,
+      "precision": 0.13216374269005848,
+      "recall": 0.3323529411764706,
+      "thr": 0.5599999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 87,
+      "n_te_pos": 340,
+      "n_sup_neg": 348,
+      "n_te_neg": 8687
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.8527889667415105,
+      "ap": 0.2195417801145903,
+      "f1": 0.266199649737303,
+      "precision": 0.18269230769230768,
+      "recall": 0.49032258064516127,
+      "thr": 0.5099999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 117,
+      "n_te_pos": 310,
+      "n_sup_neg": 468,
+      "n_te_neg": 8577
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.7649621930691747,
+      "ap": 0.28044036150085927,
+      "f1": 0.3357142857142857,
+      "precision": 0.4,
+      "recall": 0.28923076923076924,
+      "thr": 0.6399999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 102,
+      "n_te_pos": 325,
+      "n_sup_neg": 408,
+      "n_te_neg": 8637
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamA-2021",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.39800802559798576,
+      "ap": 0.0038713240417362817,
+      "f1": 0.010014306151645207,
+      "precision": 0.005041774704696053,
+      "recall": 0.7291666666666666,
+      "thr": 0.05
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9532
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamA-2021",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.5342504316492755,
+      "ap": 0.004953488391225152,
+      "f1": 0.014098690835850957,
+      "precision": 0.007360672975814932,
+      "recall": 0.16666666666666666,
+      "thr": 0.3499999999999999
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9515
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamA-2021",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.756810833020705,
+      "ap": 0.014356454345826533,
+      "f1": 0.045627376425855515,
+      "precision": 0.02425876010781671,
+      "recall": 0.3829787234042553,
+      "thr": 0.31999999999999995
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 15,
+      "n_te_pos": 47,
+      "n_sup_neg": 60,
+      "n_te_neg": 9528
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamB-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.7255836203597398,
+      "ap": 0.005758503044006492,
+      "f1": 0.012244897959183673,
+      "precision": 0.006289308176100629,
+      "recall": 0.23076923076923078,
+      "thr": 0.09999999999999999
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8040
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamB-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.9014921875,
+      "ap": 0.010131852942655933,
+      "f1": 0.02406015037593985,
+      "precision": 0.0121765601217656,
+      "recall": 1.0,
+      "thr": 0.09999999999999999
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 8000
+    }
+  },
+  {
+    "protocol": "event_emb7",
+    "target": "TeamB-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.9304041820505539,
+      "ap": 0.044086762080020526,
+      "f1": 0.1282051282051282,
+      "precision": 0.07042253521126761,
+      "recall": 0.7142857142857143,
+      "thr": 0.19999999999999996
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 7,
+      "n_te_pos": 28,
+      "n_sup_neg": 28,
+      "n_te_neg": 8048
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamA-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.7645010795537381,
+      "ap": 0.10585031256005403,
+      "f1": 0.21521335807050093,
+      "precision": 0.15718157181571815,
+      "recall": 0.3411764705882353,
+      "thr": 0.5499999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 87,
+      "n_te_pos": 340,
+      "n_sup_neg": 348,
+      "n_te_neg": 8473
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamA-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.8621599277370361,
+      "ap": 0.23025840961166222,
+      "f1": 0.30851063829787234,
+      "precision": 0.26244343891402716,
+      "recall": 0.3741935483870968,
+      "thr": 0.5599999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 117,
+      "n_te_pos": 310,
+      "n_sup_neg": 468,
+      "n_te_neg": 8428
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamA-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.7898806255984681,
+      "ap": 0.3175899113778142,
+      "f1": 0.4139194139194139,
+      "precision": 0.5113122171945701,
+      "recall": 0.3476923076923077,
+      "thr": 0.6499999999999999
+    },
+    "split": {
+      "n_events": 28,
+      "n_sup_events": 9,
+      "n_te_events": 19,
+      "n_sup_pos": 102,
+      "n_te_pos": 325,
+      "n_sup_neg": 408,
+      "n_te_neg": 8435
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamA-2021",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.45614578936260025,
+      "ap": 0.004272977265093538,
+      "f1": 0.011347517730496455,
+      "precision": 0.005706134094151213,
+      "recall": 1.0,
+      "thr": 0.05
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 14,
+      "n_te_pos": 48,
+      "n_sup_neg": 56,
+      "n_te_neg": 9476
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamA-2021",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.5649348362985207,
+      "ap": 0.005855730433327222,
+      "f1": 0.01791044776119403,
+      "precision": 0.009146341463414634,
+      "recall": 0.42857142857142855,
+      "thr": 0.16999999999999998
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 20,
+      "n_te_pos": 42,
+      "n_sup_neg": 80,
+      "n_te_neg": 9467
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamA-2021",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.6931525432865187,
+      "ap": 0.015020273796632953,
+      "f1": 0.06369426751592357,
+      "precision": 0.045454545454545456,
+      "recall": 0.10638297872340426,
+      "thr": 0.62
+    },
+    "split": {
+      "n_events": 8,
+      "n_sup_events": 2,
+      "n_te_events": 6,
+      "n_sup_pos": 15,
+      "n_te_pos": 47,
+      "n_sup_neg": 60,
+      "n_te_neg": 9473
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamB-2020",
+    "seed": 42,
+    "status": "ok",
+    "result": {
+      "auc": 0.8062307117253541,
+      "ap": 0.00792400787006676,
+      "f1": 0.01943544655252198,
+      "precision": 0.009836065573770493,
+      "recall": 0.8076923076923077,
+      "thr": 0.06
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 9,
+      "n_te_pos": 26,
+      "n_sup_neg": 36,
+      "n_te_neg": 8026
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamB-2020",
+    "seed": 123,
+    "status": "ok",
+    "result": {
+      "auc": 0.9139078551741419,
+      "ap": 0.01279933195142443,
+      "f1": 0.03664921465968586,
+      "precision": 0.01912568306010929,
+      "recall": 0.4375,
+      "thr": 0.12
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 19,
+      "n_te_pos": 16,
+      "n_sup_neg": 76,
+      "n_te_neg": 7982
+    }
+  },
+  {
+    "protocol": "event_emb21",
+    "target": "TeamB-2020",
+    "seed": 2026,
+    "status": "ok",
+    "result": {
+      "auc": 0.9726249777619641,
+      "ap": 0.05742402201028454,
+      "f1": 0.12385321100917432,
+      "precision": 0.0661764705882353,
+      "recall": 0.9642857142857143,
+      "thr": 0.09999999999999999
+    },
+    "split": {
+      "n_events": 3,
+      "n_sup_events": 1,
+      "n_te_events": 2,
+      "n_sup_pos": 7,
+      "n_te_pos": 28,
+      "n_sup_neg": 28,
+      "n_te_neg": 8030
+    }
+  }
+]
